@@ -1,10 +1,13 @@
-import React from 'react';
-import { AreaBalance, Container, EyeButton, Item, TextBalance, TextSymbol, TextTitle } from './styles';
+import React, {useState} from 'react';
+import { AreaBalance, EyeButton, Item, Skeleton, TextBalance, TextSymbol, TextTitle } from './styles';
 import Icon from 'react-native-vector-icons/Feather';
 import {MotiView} from 'moti';
 import { StyleSheet } from 'react-native';
 
 export default function Balance({balance}){
+
+  const [showBalance, setShowBalance] = useState(false);
+
   return (
     <MotiView
       style={styles.container}
@@ -22,14 +25,23 @@ export default function Balance({balance}){
         duration: 900
       }}
     >
-       <EyeButton>
-            <Icon name='eye' size={35} color="#cacaca" />
+       <EyeButton onPress={()=>setShowBalance(!showBalance)} >
+                {showBalance ? (
+                   <Icon name='eye' size={35} color="#cacaca" />
+                ): (
+                  <Icon name='eye-off' size={35} color="#cacaca" />
+                )}
+            
        </EyeButton>
        <Item>
         <TextTitle>Saldo</TextTitle>
             <AreaBalance>
                 <TextSymbol>R$</TextSymbol>
-                <TextBalance>{balance}</TextBalance>
+                {showBalance ? (
+                   <TextBalance>{balance}</TextBalance>
+                ): (
+                  <Skeleton/>
+                )}
             </AreaBalance>
        </Item>
     </MotiView>

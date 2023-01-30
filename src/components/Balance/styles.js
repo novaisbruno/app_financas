@@ -38,6 +38,7 @@ export const TextSymbol = styled.Text`
     color: #dadada;
     font-size: 20px;
     font-weight: bold;
+    margin-right: 5px;
 `;
 
 export const TextBalance = styled.Text`
@@ -45,4 +46,12 @@ export const TextBalance = styled.Text`
     font-size: 20px;
     margin-left: 5px;
     font-weight: bold;
+`;
+
+export const Skeleton = styled.View`
+    margin-top: 6px;
+    width: 80px;
+    height: 10px;
+    background-color: #dadada;
+    border-radius: 8px;
 `;
