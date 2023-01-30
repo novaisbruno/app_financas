@@ -2,9 +2,12 @@ import React from 'react';
 import { Container } from './styles';
 import { StyleSheet, Text, TextInput, TouchableOpacity } from 'react-native';
 import * as AnimaTable from 'react-native-animatable';
-
+import { useNavigation } from '@react-navigation/native';
 
 export default function SignIn(){
+
+  const navigation = useNavigation();
+
   return (
     <Container>
         <AnimaTable.View 
@@ -33,7 +36,7 @@ export default function SignIn(){
             placeholderTextColor='#a1a1a1'
           />
 
-          <TouchableOpacity style={styles.button}>
+          <TouchableOpacity style={styles.button} onPress={()=>navigation.navigate('Home')} >
             <Text style={styles.buttonText} >Acessar</Text>
           </TouchableOpacity>
 
