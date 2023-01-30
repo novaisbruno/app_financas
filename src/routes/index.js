@@ -12,7 +12,7 @@ export default function Routes(){
                 headerShown: false,
                 gestureDirection: "horizontal"  
             }}
-            initialRouteName='Home'
+            initialRouteName='Welcome'
             options={{
                 gestureDirection: "horizontal"
             }}
