@@ -5,12 +5,13 @@ import Balance from '../../components/Balance';
 import {operations} from '../../datas';
 import Moviments from '../../components/Moviments';
 import Actions from '../../components/Actions';
+import {balance} from '../../datas';
 
 export default function Home(){
   return (
     <Container>
         <Header userName="User Name" />
-        <Balance balance="3.250.67" />
+        <Balance balance={balance} />
 
         <Actions/>
 

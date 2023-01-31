@@ -28,3 +28,5 @@ export const operations = [
         type: 1 //receita
     },
 ];
+
+export const balance = "2.637"

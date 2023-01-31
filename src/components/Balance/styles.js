@@ -50,7 +50,7 @@ export const TextBalance = styled.Text`
 
 export const Skeleton = styled.View`
     margin-top: 6px;
-    width: 80px;
+    width: 60px;
     height: 10px;
     background-color: #dadada;
     border-radius: 8px;
