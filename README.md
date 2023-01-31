@@ -11,6 +11,8 @@ A app consiste em em um Layout voltado a finan√ßas com diferntes tipos de anima√
 ![Mobile 1](https://github.com/novaisbruno/app_financas/blob/main/src/assets/img/screens/screen_1.gif) 
 ![Mobile 2](https://github.com/novaisbruno/app_financas/blob/main/src/assets/img/screens/screen_2.gif)
 ![Mobile 3](https://github.com/novaisbruno/app_financas/blob/main/src/assets/img/screens/screen_3.gif)
+![Mobile 3](https://github.com/novaisbruno/app_financas/blob/main/src/assets/img/screens/screen_4.png)
+
 
 # Tecnologias Utilizadas
 - React-Native
