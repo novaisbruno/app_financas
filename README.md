@@ -8,9 +8,9 @@ Finanças App é um aplicativo front-end construído com React Native.
 A app consiste em em um Layout voltado a finanças com diferntes tipos de animações.
 
 ## Layout Mobile
-<img  src="https://github.com/novaisbruno/app_financas/blob/main/src/assets/img/screens/screen_1.gif" height="620" width="350"> <img  src="https://github.com/novaisbruno/app_financas/blob/main/src/assets/img/screens/screen_2.gif" height="620" width="350">
-<img  src="https://github.com/novaisbruno/app_financas/blob/main/src/assets/img/screens/screen_3.gif" height="620" width="350">
+<img  src="https://github.com/novaisbruno/app_financas/blob/main/src/assets/img/screens/screen_1.gif" height="620" width="350"> <img  src="https://github.com/novaisbruno/app_financas/blob/main/src/assets/img/screens/screen_3.gif" height="620" width="350">
 <img  src="https://github.com/novaisbruno/app_financas/blob/main/src/assets/img/screens/screen_4.png" height="620" width="350">
+<img  src="https://github.com/novaisbruno/app_financas/blob/main/src/assets/img/screens/screen_2.gif" height="620" width="350">
 
 
 # Tecnologias Utilizadas
